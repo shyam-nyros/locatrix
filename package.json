@@ -54,7 +54,8 @@
     "vite": "^7.0.6"
   },
   "scripts": {
-    "build": "wasp build",
-    "start": "wasp start prod"
+    "preinstall": "curl -sSL https://get.wasp-lang.dev/installer.sh | sh -s -- -v 0.14.0",
+    "build": "$HOME/.wasp/wasp build",
+    "start": "$HOME/.wasp/wasp start prod"
   }
 }
