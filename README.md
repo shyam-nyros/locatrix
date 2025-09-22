@@ -1,16 +1,8 @@
 # <YOUR_APP_NAME>
 
-Built with [Wasp](https://wasp.sh), based on the [Open Saas](https://opensaas.sh) template.
+This project is based on [OpenSaas](https://opensaas.sh) template and consists of three main dirs:
+1. `app` - Your web app, built with [Wasp](https://wasp.sh).
+2. `e2e-tests` - [Playwright](https://playwright.dev/) tests for your Wasp web app.
+3. `blog` - Your blog / docs, built with [Astro](https://docs.astro.build) based on [Starlight](https://starlight.astro.build/) template.
 
-## UI Components
-
-This template includes [ShadCN UI](https://ui.shadcn.com/) v2 for beautiful, accessible React components. See [SHADCN_SETUP.md](./SHADCN_SETUP.md) for details on how to use ShadCN components in your app.
-
-## Development
-
-### Running locally
- - Make sure you have the `.env.client` and `.env.server` files with correct dev values in the root of the project.
- - Run the database with `wasp start db` and leave it running.
- - Run `wasp start` and leave it running.
- - [OPTIONAL]: If this is the first time starting the app, or you've just made changes to your entities/prisma schema, also run `wasp db migrate-dev`.
-
+For more details, check READMEs of each respective directory!
